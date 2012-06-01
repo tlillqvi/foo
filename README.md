@@ -2,3 +2,5 @@ foo
 ===
 
 testing
+
+something
