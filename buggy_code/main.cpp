@@ -30,8 +30,11 @@ public:
 
 int main()
 {
+  Object* o;
+  {
     Factory f;
-    Object *o = f.getObject();
-    cout << o->value << endl;
+    o = f.getObject();
+  }
+  cout << o->value << endl;
 }
 
